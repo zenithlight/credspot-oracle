@@ -1,0 +1,301 @@
+[{
+  "inputs": [{
+    "internalType": "contract IOpenOracleFramework",
+    "name": "_oracle",
+    "type": "address"
+  },
+    {
+      "internalType": "contract ISuperfluid",
+      "name": "_host",
+      "type": "address"
+    },
+    {
+      "internalType": "contract ISuperToken",
+      "name": "_acceptedSuperToken",
+      "type": "address"
+    },
+    {
+      "internalType": "contract IInstantDistributionAgreementV1",
+      "name": "_ida",
+      "type": "address"
+    },
+    {
+      "internalType": "uint256",
+      "name": "_purchasePrice",
+      "type": "uint256"
+    }
+  ],
+  "stateMutability": "nonpayable",
+  "type": "constructor"
+},
+  {
+    "inputs": [{
+      "internalType": "contract ISuperToken",
+      "name": "",
+      "type": "address"
+    },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      }
+    ],
+    "name": "afterAgreementCreated",
+    "outputs": [{
+      "internalType": "bytes",
+      "name": "",
+      "type": "bytes"
+    }],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [{
+      "internalType": "contract ISuperToken",
+      "name": "",
+      "type": "address"
+    },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      }
+    ],
+    "name": "afterAgreementTerminated",
+    "outputs": [{
+      "internalType": "bytes",
+      "name": "",
+      "type": "bytes"
+    }],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [{
+      "internalType": "contract ISuperToken",
+      "name": "",
+      "type": "address"
+    },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      }
+    ],
+    "name": "afterAgreementUpdated",
+    "outputs": [{
+      "internalType": "bytes",
+      "name": "",
+      "type": "bytes"
+    }],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [{
+      "internalType": "contract ISuperToken",
+      "name": "",
+      "type": "address"
+    },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      }
+    ],
+    "name": "beforeAgreementCreated",
+    "outputs": [{
+      "internalType": "bytes",
+      "name": "",
+      "type": "bytes"
+    }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [{
+      "internalType": "contract ISuperToken",
+      "name": "",
+      "type": "address"
+    },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      }
+    ],
+    "name": "beforeAgreementTerminated",
+    "outputs": [{
+      "internalType": "bytes",
+      "name": "",
+      "type": "bytes"
+    }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [{
+      "internalType": "contract ISuperToken",
+      "name": "",
+      "type": "address"
+    },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      }
+    ],
+    "name": "beforeAgreementUpdated",
+    "outputs": [{
+      "internalType": "bytes",
+      "name": "",
+      "type": "bytes"
+    }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [{
+      "internalType": "address",
+      "name": "_customer",
+      "type": "address"
+    }],
+    "name": "getPurchased",
+    "outputs": [{
+      "internalType": "bool",
+      "name": "",
+      "type": "bool"
+    }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [{
+      "internalType": "uint256[]",
+      "name": "_feedIds",
+      "type": "uint256[]"
+    },
+      {
+        "internalType": "address[]",
+        "name": "_addresses",
+        "type": "address[]"
+      }
+    ],
+    "name": "poke",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "purchase",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

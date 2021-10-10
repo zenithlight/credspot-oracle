@@ -1,0 +1,7 @@
+.pijul
+.git
+.DS_Store
+node_modules
+.env
+.idea
+cached-identities.json
